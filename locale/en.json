@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Decision chime",
+    "description": "Plays one short chime when a tool approval or a question with choices is waiting for your answer, so you can notice it from another window."
+  }
+}
