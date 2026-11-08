@@ -27,13 +27,13 @@ pnpm dsh plugin --profile <profile> add 'github:zba0326/dsh-approval-ding'
 
 ## 配置
 
-默认 `Glass`、音量 `0.9`。想换声音，在 profile 的 `cordis.patch.yml` 里用同一个 id 覆盖（不要改插件自带的 patch）：
+默认 `Funk`、音量 `1`。想换声音，在 profile 的 `cordis.patch.yml` 里用同一个 id 覆盖（不要改插件自带的 patch）：
 
 ```yaml
 - id: approval-ding
   name: dsh-approval-ding
   config:
-    sound: Ping    # macOS 系统音名，或绝对路径，如 /System/Library/Sounds/Ping.aiff
+    sound: Funk    # macOS 系统音名，或绝对路径，如 /System/Library/Sounds/Funk.aiff
     volume: 1      # 0–1
     enabled: true  # false 可临时静音
 ```

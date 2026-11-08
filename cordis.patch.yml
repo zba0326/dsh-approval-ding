@@ -2,5 +2,5 @@
     - id: approval-ding
       name: 'dsh-approval-ding'
       config:
-        sound: Glass
-        volume: 0.9
+        sound: Funk
+        volume: 1

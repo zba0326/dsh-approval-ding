@@ -12,8 +12,8 @@ import { existsSync } from 'node:fs'
 import { homedir } from 'node:os'
 import { join } from 'node:path'
 
-const DEFAULT_SOUND = 'Glass'
-const DEFAULT_VOLUME = 0.9
+const DEFAULT_SOUND = 'Funk'
+const DEFAULT_VOLUME = 1
 const MIN_GAP_MS = 700
 const MAC_SOUNDS = '/System/Library/Sounds'
 const LINUX_SOUNDS = [

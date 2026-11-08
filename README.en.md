@@ -27,13 +27,13 @@ Enable **Decision chime** in Plugins. Profiles with HMR pick it up immediately; 
 
 ## Configure
 
-Defaults are `Glass` at volume `0.9`. Override with the same id in the profile's `cordis.patch.yml` (do not edit the plugin's own patch):
+Defaults are `Funk` at volume `1`. Override with the same id in the profile's `cordis.patch.yml` (do not edit the plugin's own patch):
 
 ```yaml
 - id: approval-ding
   name: dsh-approval-ding
   config:
-    sound: Ping    # a macOS system sound name, or an absolute path
+    sound: Funk    # a macOS system sound name, or an absolute path
     volume: 1      # 0–1
     enabled: true  # false mutes it temporarily
 ```
